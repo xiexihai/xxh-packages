@@ -1,0 +1,16 @@
+32 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+32 error npm ERR! code E404
+32 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/@xxh%2ftools - Not found
+32 error npm ERR! 404
+32 error npm ERR! 404  '@xxh/tools@^0.0.1' is not in this registry.
+32 error npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+32 error npm ERR! 404
+32 error npm ERR! 404 Note that you can also install from a
+32 error npm ERR! 404 tarball, folder, http url, or git url.
+32 error
+32 error npm ERR! A complete log of this run can be found in:
+32 error npm ERR!     /Users/xiexihai/.npm/_logs/2022-10-10T07_50_50_182Z-debug.log
+32 error     at makeError (/Users/xiexihai/works/xxh/xxh-packages/node_modules/execa/lib/error.js:60:11)
+32 error     at handlePromise (/Users/xiexihai/works/xxh/xxh-packages/node_modules/execa/index.js:118:26)
+32 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+32 error     at async Promise.all (index 0)
