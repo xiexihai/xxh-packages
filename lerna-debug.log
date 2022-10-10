@@ -2,14 +2,14 @@
 39 error npm ERR! code E404
 39 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/@xxh%2ftools - Not found
 39 error npm ERR! 404
-39 error npm ERR! 404  '@xxh/tools@^0.0.3' is not in this registry.
+39 error npm ERR! 404  '@xxh/tools@^0.0.5' is not in this registry.
 39 error npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
 39 error npm ERR! 404
 39 error npm ERR! 404 Note that you can also install from a
 39 error npm ERR! 404 tarball, folder, http url, or git url.
 39 error
 39 error npm ERR! A complete log of this run can be found in:
-39 error npm ERR!     /Users/xiexihai/.npm/_logs/2022-10-10T09_11_17_719Z-debug.log
+39 error npm ERR!     /Users/xiexihai/.npm/_logs/2022-10-10T09_19_16_822Z-debug.log
 39 error     at makeError (/Users/xiexihai/works/xxh/xxh-packages/node_modules/execa/lib/error.js:60:11)
 39 error     at handlePromise (/Users/xiexihai/works/xxh/xxh-packages/node_modules/execa/index.js:118:26)
 39 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)

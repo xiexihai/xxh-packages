@@ -1,6 +1,6 @@
 {
   "name": "@xxh/aui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "xiexihai <710961684@qq.com>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "test": "node ./__tests__/aui.test.js"
   },
   "dependencies": {
-    "@xxh/tools": "^0.0.4",
+    "@xxh/tools": "../tools",
     "lodash": "^4.17.21"
   },
   "publishConfig": {
