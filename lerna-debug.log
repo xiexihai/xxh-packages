@@ -1,10 +1,16 @@
-15 error Error: Command failed with exit code 1: git remote update
-15 error fatal: 无法访问 'https://github.com/xiexihai/xxh-packages.git/'：LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
-15 error error: 不能获取 origin
-15 error 正在获取 origin
-15 error     at makeError (/Users/xiexihai/works/xxh/xxh-packages/node_modules/execa/lib/error.js:60:11)
-15 error     at Function.module.exports.sync (/Users/xiexihai/works/xxh/xxh-packages/node_modules/execa/index.js:194:17)
-15 error     at Object.execSync (/Users/xiexihai/works/xxh/xxh-packages/node_modules/@lerna/child-process/index.js:39:16)
-15 error     at updateRemote (/Users/xiexihai/works/xxh/xxh-packages/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
-15 error     at isBehindUpstream (/Users/xiexihai/works/xxh/xxh-packages/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
-15 error     at VersionCommand.initialize (/Users/xiexihai/works/xxh/xxh-packages/node_modules/@lerna/version/index.js:156:9)
+39 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+39 error npm ERR! code E404
+39 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/@xxh%2ftools - Not found
+39 error npm ERR! 404
+39 error npm ERR! 404  '@xxh/tools@^0.0.3' is not in this registry.
+39 error npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+39 error npm ERR! 404
+39 error npm ERR! 404 Note that you can also install from a
+39 error npm ERR! 404 tarball, folder, http url, or git url.
+39 error
+39 error npm ERR! A complete log of this run can be found in:
+39 error npm ERR!     /Users/xiexihai/.npm/_logs/2022-10-10T09_11_17_719Z-debug.log
+39 error     at makeError (/Users/xiexihai/works/xxh/xxh-packages/node_modules/execa/lib/error.js:60:11)
+39 error     at handlePromise (/Users/xiexihai/works/xxh/xxh-packages/node_modules/execa/index.js:118:26)
+39 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+39 error     at async Promise.all (index 0)
