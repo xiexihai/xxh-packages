@@ -17,10 +17,11 @@
     "test": "node ./__tests__/aui.test.js"
   },
   "dependencies": {
-    "@xxh/tools": "../tools",
+    "@xxh/tools": "^0.0.2",
     "lodash": "^4.17.21"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "e8f28318a853f04b5256942fd6d0f6b33c33c4c5"
 }
