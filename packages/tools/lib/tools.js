@@ -3,6 +3,6 @@
 module.exports = tools;
 
 function tools() {
-    return "Hello from tools 哈哈 我更新ee了 33";
+    return "Hello from tools 哈哈 我更新ee了 33 adsd";
 }
 console.log(tools())
