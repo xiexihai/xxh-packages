@@ -1,9 +1,7 @@
-'use strict';
 
-const tools = require('@xxh/tools');
-module.exports = aui;
+import {tools} from '@xxh-ui/tools'
 
-function aui() {
-    return "Hello from aui haha222h";
+export const aui =()=> {
+    return "Hello from aui haha222h ========" + tools();
 }
 console.log(aui() +'--' + tools())
