@@ -1,5 +1,5 @@
 {
-  "name": "@xxh/tools",
+  "name": "@xxh-ui/tools",
   "version": "0.0.11",
   "description": "> TODO: description",
   "author": "xiexihai <710961684@qq.com>",
@@ -22,5 +22,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "81158406b09743ffb7526bed1f16392c9c36142c"
+  "gitHead": "369927e78f1c068f96e0b174d1b6e32e4dc63b25"
 }
